@@ -1,10 +1,30 @@
 body {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+}
 
+.header-links {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-rechts {
+    gap: 10px;
 }
 
 .content {
@@ -28,5 +48,5 @@ flex-direction: column;
 }
 
 .footer {
-    
+
 }
