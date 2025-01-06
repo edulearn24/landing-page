@@ -2,11 +2,15 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto;
+    flex: auto;
 }
 
 a {
     text-decoration: none;
     color: #F9FAF8;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 20px;
 }
 
 .header {
@@ -27,26 +31,133 @@ a {
     gap: 10px;
 }
 
-.content {
+/* .content {
 
+} */
+
+.part1-parent {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
 }
 
 .part1-main {
+    max-width: 400px;
+    gap: 10px;
+}
 
+.part1-main-text {
+    font-size: 48px;
+    font-weight: 900px;
+    color: #F9FAF8;
+}
+
+.part1-main-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.part1-main-button button {
+    background-color: #3882F6;
+    padding: 5px 30px;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.part1-main2 {
+    height: 250px;
+    display: flex;
+    flex-basis: 400px;
 }
 
 .part2-information {
+    display: flex;
+    flex-direction: column;
+}
 
+.part2-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: center;
+    margin: 20px;
+}
+
+
+.part2-cardelements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.part2-card {
+    width: 300px;
+    height: 300px;
+    border: dotted 5px black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .part3-quote {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    background-color: #E5E7EB;
 }
+
+.part3-quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
 
 .part4-action {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882F6;
+    margin: 50px 300px;
+    padding: 50px;
+    color: #F9FAF8;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    flex: auto;
 }
 
-.footer {
 
+.part4-action-textfield-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.part4-action-button button {
+    background-color: #3882F6;
+    padding: 5px 30px;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+}
+
+
+.footer {
+    color: #F9FAF8;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1F2937;
 }
